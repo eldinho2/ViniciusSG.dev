@@ -1,7 +1,15 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter } from '@next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+import Header from './components/Header'
+import About from './components/About'
+import Portifolio from './components/Portfolio'
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: "--font-inter" 
+})
 
 export const metadata = {
   title: 'Vinicius | Portfolio',
@@ -14,8 +22,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+    <html className={inter.variable} lang="pt-BR">
+      <body>
+        <Header />
+        {children}
+        <About />
+        <Portifolio />
+      </body>
     </html>
   )
 }
