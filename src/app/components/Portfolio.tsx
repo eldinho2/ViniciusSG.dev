@@ -53,7 +53,7 @@ const Portifolio = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
             sunt, aliquam laudantium error assumenda, eius repellat ab
             repudiandae minima ad voluptatibus, recusandae placeat! Odio debitis
-            dolorum a nulla voluptate se
+            dolorum a nulla voluptate s
           </p>
         </div>
         <div className="flex justify-center gap-5 text-white">
