@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import Header from './components/Header'
 import About from './components/About'
 import Portifolio from './components/Portfolio'
+import Contact from './components/Contact'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -22,12 +23,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className={inter.variable} lang="pt-BR">
+    <html className={`${inter.variable} bg-[#212121]`} lang="pt-BR">
       <body>
         <Header />
         {children}
         <About />
         <Portifolio />
+        <Contact />
       </body>
     </html>
   )
