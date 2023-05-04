@@ -13,7 +13,7 @@ const Header = () => {
                 <li className="cursor-pointer hover:underline underline-offset-4 hover:text-white hover:decoration-[#55c5e9]">Sobre</li>
                 <li className="cursor-pointer hover:underline underline-offset-4 hover:text-white hover:decoration-[#55c5e9]">Projetos</li>
                 <li className="cursor-pointer hover:underline underline-offset-4 hover:text-white hover:decoration-[#55c5e9]">Contato</li>
-                <li>CV</li>
+                <a href="/curriculoAtualizado.pdf" about="_blank">Download CV</a>
             </ul>
             </nav>
         </header>
