@@ -1,6 +1,10 @@
+import { FadeUp } from "./animations";
+
+
 const Contact = () => {
   return (
     <section className="mt-28">
+      <FadeUp>
       <div className="flex flex-col justify-center items-center gap-6">
         <div className="flex flex-col justify-center items-center  gap-3">
           <h1 className="text-[#55c5e9] text-xl font-semibold">
@@ -17,7 +21,7 @@ const Contact = () => {
             <a href="mailto:vinisaio10@gmail.com">vinisaio10@gmail.com</a>
           </button>
           <button className="bg-[#55c5e9] p-4 rounded-lg shadow-lg">
-            <a href="https://www.linkedin.com/in/vinicius-saiao-goncalves/">
+            <a href="https://www.linkedin.com/in/vinicius-saiao-goncalves/" target="_blank">
               Linkedin
             </a>
           </button>
@@ -26,6 +30,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
+      </FadeUp>
     </section>
   );
 };
