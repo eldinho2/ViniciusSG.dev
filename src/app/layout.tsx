@@ -5,6 +5,7 @@ import Header from './components/Header'
 import About from './components/About'
 import Portifolio from './components/Portfolio'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -30,6 +31,7 @@ export default function RootLayout({
         <About />
         <Portifolio />
         <Contact />
+        <Footer />
       </body>
     </html>
   )
