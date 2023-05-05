@@ -19,12 +19,12 @@ const Footer = () => {
       <nav className="mx-8">
         <ul className="flex items-center gap-2 font-medium">
           <li className="cursor-pointer hover:underline underline-offset-4 hover:text-white hover:decoration-[#55c5e9]">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="http://github.com/eldinho2" target="_blank" rel="noopener noreferrer">
               <Image src="/github-svgrepo-com.svg" alt="" width={40} height={40} />
             </a>
           </li>
           <li className="cursor-pointer hover:underline underline-offset-4 hover:text-white hover:decoration-[#55c5e9]">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/vinicius-saiao-goncalves/" target="_blank" rel="noopener noreferrer">
               <Image src="/linkedin-svgrepo-com.svg" alt="" width={45} height={45} />
           </a>
           </li>
