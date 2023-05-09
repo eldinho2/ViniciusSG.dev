@@ -2,18 +2,20 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-      <footer className="flex justify-between items-center mt-24 h-16 bg-neutral-800 text-lg text-zinc-200 xsm:justify-center">
+      <footer className="flex justify-between items-center mt-24 h-16 bg-neutral-800 text-lg text-zinc-200 xsm:justify-center xsm:mt-14">
       <div className="flex items-center mx-8 font-semibold cursor-pointer hover:underline underline-offset-4 hover:text-white hover:decoration-[#55c5e9] xsm:hidden">
         <span className="text-[#55c5e9]">
           G
         </span>
-        <h1 className="w-36">
-          Vinicius
-        </h1>
+        <a href="http://github.com/eldinho2" target="_blank">
+          <h1 className="w-36">
+            Vinicius
+          </h1>
+        </a>
       </div>
       <div className="flex">
         <p className="flex gap-2">
-          Feito com <Image alt="react-icon" src={'/react-svgrepo-com.svg'} width={30} height={30 } className="animate-spin-slow" /> e <span className="text-[#55c5e9]">❤</span>  por Vinicius
+          Feito com <Image alt="react-icon" src={'/react-svgrepo-com.svg'} width={30} height={30 } className="animate-spin-slow" /> e <span className="text-[#55c5e9]">❤</span>  por <a href="http://github.com/eldinho2" target="_blank" rel="noopener noreferrer">Vinicius</a>
         </p>
       </div>
       <nav className="mx-8 xsm:hidden">

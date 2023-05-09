@@ -10,13 +10,13 @@ const Contact = () => {
           <h1 className="text-[#55c5e9] text-xl font-semibold">
             Entre em contato comigo
           </h1>
-          <p className="max-w-xl text-center text-white text-base font-medium">
+          <p className="max-w-xl text-center text-white text-base font-medium xsm:text-sm xsm:max-w-xs">
             Caso você tenha identificado potencial em mim ou deseje conversar
             comigo, por favor, sinta-se à vontade para me enviar uma mensagem.
             Estou disponível e aberto para conversar.
           </p>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-3 xsm:flex-col">
           <button className="bg-[#55c5e9] p-4 rounded-lg shadow-lg">
             <a href="mailto:vinisaio10@gmail.com">vinisaio10@gmail.com</a>
           </button>

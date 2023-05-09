@@ -13,7 +13,7 @@ const Portifolio = () => {
       </FadeUp>
       <div className="flex flex-col items-center justify-center gap-10">
       <FadeLeft>
-        <div className="flex gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[400px]">
+        <div className="flex gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[370px] xsm:flex-col">
           <div className="overflow-hidden h-[300px]">
             <a
               href="https://gym-website-sigma.vercel.app/"
@@ -33,8 +33,7 @@ const Portifolio = () => {
           <div className="flex justify-center items-center flex-col gap-3">
             <div>
               <p className="max-w-xl font-medium text-base">
-                Este é um projeto de site para academia, desenvolvido com React,
-                tailwindCSS, Next.js e TypeScript. O objetivo deste projeto é
+                Este é um projeto de site para academia, O objetivo deste projeto é
                 fornecer uma solução simples e elegante para apresentar
                 informações sobre uma academia e seus serviços aos usuários.
               </p>
@@ -65,7 +64,7 @@ const Portifolio = () => {
         </div>
         </FadeLeft>
         <FadeRight>
-        <div className="flex flex-row-reverse gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[400px]">
+        <div className="flex flex-row-reverse gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[370px] xsm:flex-col">
           <div className="flex items-center justify-center">
             <a
               href="https://kanban-app-zeta-nine.vercel.app/"
@@ -85,8 +84,7 @@ const Portifolio = () => {
             <div>
               <p className="max-w-xl font-medium text-base">
                 É um aplicativo de gerenciamento de tarefas inspirado na
-                metodologia Kanban, desenvolvido em React, TypeScript, Tailwind
-                CSS. Permite aos usuários criar, atualizar e excluir tarefas,
+                metodologia Kanban, Permite aos usuários criar, atualizar e excluir tarefas,
                 bem como movê-las entre as diferentes etapas do processo.
               </p>
             </div>
@@ -116,7 +114,7 @@ const Portifolio = () => {
         </div>
         </FadeRight>
         <FadeLeft>
-        <div className="flex gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[400px]">
+        <div className="flex gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[370px] xsm:flex-col">
           <div className="overflow-hidden h-[300px]">
             <a
               href="https://travel-app-mu-black.vercel.app/"
@@ -170,7 +168,7 @@ const Portifolio = () => {
         </div>
         </FadeLeft>
         <FadeRight>
-        <div className="flex gap-5 flex-row-reverse p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[400px]">
+        <div className="flex gap-5 flex-row-reverse p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[370px] xsm:flex-col">
           <div className="flex justify-center items-center">
             <a
               href="https://weather-app-iota-gold.vercel.app/"
@@ -191,11 +189,7 @@ const Portifolio = () => {
               <p className="max-w-xl font-medium text-base">
                 Este é um aplicativo de previsão do tempo moderno e fácil de
                 usar. Ele permite que você consulte o clima em sua localização
-                atual ou em qualquer outra cidade do mundo. O aplicativo exibe
-                informações detalhadas sobre o clima, incluindo a temperatura
-                atual, a máxima, a mínima, a umidade e a velocidade do vento.
-                Além disso, ele apresenta informações visuais atraentes, como
-                ícones de clima.
+                atual ou em qualquer outra cidade do mundo.
               </p>
             </div>
             <div className="flex gap-4">
