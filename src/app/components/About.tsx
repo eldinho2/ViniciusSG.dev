@@ -4,7 +4,7 @@ import { FadeUp, FadeLeft, FadeRight } from "./animations";
 
 const About = () => {
   return (
-    <section className="flex justify-center items-center">
+    <section id="about" className="flex justify-center items-center">
       <FadeLeft>
       <div className="relative">
         <Image

@@ -7,7 +7,7 @@ const Portifolio = () => {
   return (
     <section className="mt-28">
       <FadeUp>
-      <h1 className="text-center text-white text-2xl font-semibold underline underline-offset-4 decoration-[#55c5e9] mb-10">
+      <h1 id="projects" className="text-center text-white text-2xl font-semibold underline underline-offset-4 decoration-[#55c5e9] mb-10">
         Meu portfólio
       </h1>
       </FadeUp>

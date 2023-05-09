@@ -3,9 +3,9 @@ import { FadeUp } from "./animations";
 
 const Contact = () => {
   return (
-    <section className="mt-28">
+    <section id='contato' className="mt-28">
       <FadeUp>
-      <div className="flex flex-col justify-center items-center gap-6">
+      <div id='contato' className="flex flex-col justify-center items-center gap-6">
         <div className="flex flex-col justify-center items-center  gap-3">
           <h1 className="text-[#55c5e9] text-xl font-semibold">
             Entre em contato comigo
