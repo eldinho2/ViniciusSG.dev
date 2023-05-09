@@ -10,7 +10,7 @@ interface Props {
 
 const FadeUp = ({children}:Props) => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (
@@ -24,7 +24,7 @@ const FadeUp = ({children}:Props) => {
 
 const FadeLeft = ({children}:Props) => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (
@@ -39,7 +39,7 @@ const FadeLeft = ({children}:Props) => {
 
 const FadeRight = ({children}:Props) => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (

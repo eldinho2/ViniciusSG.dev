@@ -23,7 +23,7 @@ export const HamburguerMenu = () => {
   }, []);
 
   return (
-    <div className="hidden xsm:flex">
+    <div className="hidden xsm:flex mx-5">
       <div
         onClick={HandleOpenMenu}
         className={`${openMenu ? "hidden" : "block"}`}
@@ -43,7 +43,7 @@ export const HamburguerMenu = () => {
             className="absolute left-0 w-full h-screen"
           ></div>
           <div
-            className={`absolute left-0 w-full mt-[40px] h-[300px] ${
+            className={`absolute left-0 w-full mt-[52px] h-[300px] ${
               isScroll ? "bg-gradient-to-r from-neutral-800" : "bg-neutral-800"
             }`}
           >

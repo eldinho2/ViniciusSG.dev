@@ -18,7 +18,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={` ${isScroll ? 'bg-gradient-to-r from-neutral-800' : 'bg-neutral-800'} fixed w-full z-40 flex justify-between h-20 items-center text-lg text-zinc-200`}>
+    <header className={` ${isScroll ? 'bg-gradient-to-r from-neutral-800' : 'bg-neutral-800'} fixed w-screen z-40 flex justify-between h-20 items-center text-lg text-zinc-200`}>
       <div className="flex flex-1 m-14 font-semibold cursor-pointer hover:underline underline-offset-4 hover:text-white hover:decoration-[#55c5e9] xsm:underline decoration-[#55c5e9] xsm:flex-none xsm:ml-5 xsm:m-1">
         <FadeRight>
         <span className="text-[#55c5e9]">

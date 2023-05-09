@@ -5,7 +5,7 @@ import {FadeUp, FadeLeft, FadeRight} from "./animations";
 
 const Portifolio = () => {
   return (
-    <section className="mt-28">
+    <section className="mt-28 overflow-hidden">
       <FadeUp>
       <h1 id="projects" className="text-center text-white text-2xl font-semibold underline underline-offset-4 decoration-[#55c5e9] mb-10">
         Meu portfólio
@@ -13,7 +13,7 @@ const Portifolio = () => {
       </FadeUp>
       <div className="flex flex-col items-center justify-center gap-10">
       <FadeLeft>
-        <div className="flex gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[370px] xsm:flex-col">
+        <div className="flex gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[330px] xsm:flex-col">
           <div className="overflow-hidden h-[300px]">
             <a
               href="https://gym-website-sigma.vercel.app/"
@@ -64,7 +64,7 @@ const Portifolio = () => {
         </div>
         </FadeLeft>
         <FadeRight>
-        <div className="flex flex-row-reverse gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[370px] xsm:flex-col">
+        <div className="flex flex-row-reverse gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[330px] xsm:flex-col">
           <div className="flex items-center justify-center">
             <a
               href="https://kanban-app-zeta-nine.vercel.app/"
@@ -114,7 +114,7 @@ const Portifolio = () => {
         </div>
         </FadeRight>
         <FadeLeft>
-        <div className="flex gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[370px] xsm:flex-col">
+        <div className="flex gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[330px] xsm:flex-col">
           <div className="overflow-hidden h-[300px]">
             <a
               href="https://travel-app-mu-black.vercel.app/"
@@ -168,7 +168,7 @@ const Portifolio = () => {
         </div>
         </FadeLeft>
         <FadeRight>
-        <div className="flex gap-5 flex-row-reverse p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[370px] xsm:flex-col">
+        <div className="flex gap-5 flex-row-reverse p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[330px] xsm:flex-col">
           <div className="flex justify-center items-center">
             <a
               href="https://weather-app-iota-gold.vercel.app/"

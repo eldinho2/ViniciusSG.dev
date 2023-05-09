@@ -5,10 +5,10 @@ import { FadeLeft, FadeRight, FadeUp } from "./components/animations";
 
 export default function Home() {
   return (
-    <main className="bg-[#212121] h-screen flex flex-col justify-center items-center">
+    <main className="bg-[#212121] h-screen flex flex-col justify-center items-center overflow-hidden">
       <div className="flex">
       <FadeRight>
-        <div>
+        <div className="xsm:flex xsm:flex-col xsm:justify-center xsm:items-center">
           <h1 className="flex decoration-[#55c5e9] underline underline-offset-4 text-zinc-200 font-extrabold text-3xl">
             Vinicius Gonçalves
             <Image
@@ -20,10 +20,10 @@ export default function Home() {
             />
             ,
           </h1>
-          <h1 className="text-zinc-200 font-extrabold text-5xl">
+          <h1 className="xsm:text-center text-zinc-200 font-extrabold text-5xl">
             Front End Developer
           </h1>
-          <p className="text-zinc-400 text-lg font-medium my-9">
+          <p className=" xsm:text-center text-zinc-400 text-lg font-medium my-9">
             Desenvolvedor Full Stack, apaixonado por tecnologia e programação.
           </p>
           <span className="flex justify-start mb-6">
@@ -43,8 +43,8 @@ export default function Home() {
             </a>
           </span>
           <FadeUp>
-          <div className="flex items-center">
-            <h2 className="text-zinc-100 font-medium text-base">
+          <div className="flex items-center xsm:flex-col">
+            <h2 className="text-zinc-100 font-medium text-base xsm:mb-3">
               Tech Stack |
             </h2>
             <ul className="flex ml-3 gap-5">
@@ -133,7 +133,7 @@ export default function Home() {
         </div>
         </FadeRight>
         <FadeLeft>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center xsm:hidden">
             <Image
               src={"/illustration.svg"}
               alt="illustration"
