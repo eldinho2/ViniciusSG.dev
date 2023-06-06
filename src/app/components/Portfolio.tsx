@@ -116,7 +116,7 @@ const Portifolio = () => {
         <div className="flex flex-row-reverse gap-5 p-4 text-white shadow-lg bg-neutral-800 rounded-lg w-[700px] xsm:w-[330px] xsm:flex-col">
           <div className="flex items-center justify-center">
             <a
-              href="https://gym-website-sigma.vercel.app/"
+              href="https://planets-3d.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
