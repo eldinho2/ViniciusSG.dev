@@ -55,7 +55,7 @@ const Header = () => {
           </a>
           <a
           className=" bg-[#55c5e9] rounded-md p-1 hover:text-[#55c5e9] hover:bg-[#204b5a] border border-[#55c5e9] hover:border-[#55c5e9]"
-            href="https://drive.google.com/file/d/1zgNqMidDhYOXh6lLTvkqVv2Z2OJghAj-/view?usp=share_link"
+            href="https://drive.google.com/file/d/1Fv7odJW_RcssQ32cfDcry7PXkhqep-Is/view?usp=sharing"
             target="_blank"
           >
             Download CV
