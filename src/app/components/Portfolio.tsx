@@ -132,7 +132,7 @@ const Portifolio = () => {
           <div className="flex justify-center items-center flex-col gap-3">
             <div>
               <p className="max-w-xl font-medium text-base">
-              É uma experiência interativa únnpmica que permite explorar os planetas do nosso sistema solar de uma forma envolvente. e com informações sobre cada planeta.
+              É uma experiência interativa única que permite explorar os planetas do nosso sistema solar de uma forma envolvente. e com informações sobre cada planeta.
               </p>
             </div>
             <div className="flex gap-4">
