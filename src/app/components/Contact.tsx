@@ -4,7 +4,6 @@ import { FadeUp } from "./animations";
 const Contact = () => {
   return (
     <section id='contato' className="mt-28">
-      <FadeUp>
       <div id='contato' className="flex flex-col justify-center items-center gap-6">
         <div className="flex flex-col justify-center items-center  gap-3">
           <h1 className="text-[#55c5e9] text-xl font-semibold">
@@ -26,11 +25,13 @@ const Contact = () => {
             </a>
           </button>
           <button className="bg-[#55c5e9] p-4 rounded-lg shadow-lg">
-            <a href="tel:+5521992176099">(21) 99217-6099</a>
+            <a href="https://wa.me/21992176099?text=Olá">(21) 99217-6099</a>
+          </button>
+          <button className="bg-[#55c5e9] p-4 rounded-lg shadow-lg">
+            <a href="https://drive.google.com/file/d/1Fv7odJW_RcssQ32cfDcry7PXkhqep-Is/view?usp=sharing" target="_blanck">Download CV</a>
           </button>
         </div>
       </div>
-      </FadeUp>
     </section>
   );
 };
