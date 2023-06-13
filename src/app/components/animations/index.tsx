@@ -29,7 +29,6 @@ const FadeLeft = ({children}:Props) => {
 
   return (
     <div data-aos="fade-left"
-    data-aos-offset="300"
     data-aos-once="true"
     >
       {children}
@@ -44,7 +43,6 @@ const FadeRight = ({children}:Props) => {
 
   return (
     <div data-aos="fade-right"
-    data-aos-offset="300"
     data-aos-once="true"
     >
       {children}
