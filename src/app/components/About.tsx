@@ -44,7 +44,7 @@ const About = () => {
         <FadeRight>
           <div className="flex flex-col gap-4 xsm:mx-7">
             <FadeRight>
-              <p className="font-light text-lg text-zinc-300 relative">
+              <p className="font-light text-xl text-zinc-300 relative">
                 Estou muito animado em começar minha carreira nesta área e estou
                 sempre buscando aprender mais para me tornar um desenvolvedor
                 melhor.
@@ -71,20 +71,20 @@ const About = () => {
               </div>
             </FadeRight>
             <FadeRight>
-              <p className="font-light text-lg text-zinc-300">
+              <p className="font-light text-xl text-zinc-300">
                 Tenho um bom conhecimento dos fundamentos. Gosto de trabalhar em
                 equipe e estou sempre disposto a ajudar e ser ajudado pelos meus
                 colegas desenvolvedores.
               </p>
             </FadeRight>
             <FadeRight>
-              <p className="font-light text-lg text-zinc-300">
+              <p className="font-light text-xl text-zinc-300">
                 Eu sou apaixonado por desenvolvimento web e estou sempre
                 antenado nas últimas tendências e novidades da indústria.
               </p>
             </FadeRight>
             <FadeRight>
-              <p className="font-light text-lg text-zinc-300">
+              <p className="font-light text-xl text-zinc-300">
                 No meu tempo livre, eu gosto de experimentar novas ferramentas e
                 frameworks para melhorar minha eficiência e desenvolvimento de
                 projetos. Eu adoro desafios e estou sempre buscando maneiras de

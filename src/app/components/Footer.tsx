@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between items-center mt-24 h-16 bg-neutral-800 text-lg text-zinc-200 xsm:justify-center xsm:mt-14">
+    <footer className="flex justify-between items-center mt-14 h-16 bg-neutral-800 text-lg text-zinc-200 xsm:justify-center xsm:mt-14">
       <div className="flex items-center mx-8 font-semibold cursor-pointer hover:underline underline-offset-4 hover:text-white hover:decoration-[#55c5e9] xsm:hidden">
         <span className="text-[#55c5e9]">G</span>
         <a href="http://github.com/eldinho2" target="_blank">
