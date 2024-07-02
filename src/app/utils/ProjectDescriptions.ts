@@ -5,7 +5,12 @@ interface ProjectDescription {
   githubLink: string
 }
 
-
+export const Paguei: ProjectDescription = {
+  imagem: "/pagueiImg.png",
+  description: "Paguei é uma aplicação de gerenciamento de despesas pessoais. Este aplicativo foi desenvolvido com um design focado em experiência móvel e possui suporte a Progressive Web App (PWA), proporcionando uma experiência integrada em dispositivos móveis.",
+  webLink: "https://paguei.vercel.app/",
+  githubLink: "https://github.com/eldinho2/Paguei"
+}
 
 export const GymWebsiteDescription: ProjectDescription = {
   imagem: "/gymwebsite.png",

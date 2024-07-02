@@ -1,9 +1,7 @@
-import Image from "next/image";
-import { BsBoxArrowUpRight } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
-import { FadeUp, FadeLeft, FadeRight } from "./animations";
+import { FadeUp } from "./animations";
 import PortfolioProjectTemplate from "./PortfolioProjectTemplate";
 import {
+  Paguei,
   GymWebsiteDescription,
   Ecommerce,
   TravelApp,
@@ -24,6 +22,13 @@ const Portifolio = () => {
         </h1>
       </FadeUp>
       <div className="flex h-full gap-11 flex-wrap justify-center items-center">
+      <PortfolioProjectTemplate
+          imagem={Paguei.imagem}
+          description={Paguei.description}
+          webLink={Paguei.webLink}
+          githubLink={Paguei.githubLink}
+        />
+
         <PortfolioProjectTemplate
           imagem={GymWebsiteDescription.imagem}
           description={GymWebsiteDescription.description}
