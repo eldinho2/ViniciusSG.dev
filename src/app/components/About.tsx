@@ -44,11 +44,6 @@ const About = () => {
         <FadeRight>
           <div className="flex flex-col gap-4 xsm:mx-7">
             <FadeRight>
-              <p className="font-light text-xl text-zinc-300 relative">
-                Estou muito animado em começar minha carreira nesta área e estou
-                sempre buscando aprender mais para me tornar um desenvolvedor
-                melhor.
-              </p>
               <div className="hidden xsm:block">
                 <Image
                   src={"/male-technologist-type-4_1f468-1f3fd-200d-1f4bb.png"}
