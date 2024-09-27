@@ -61,7 +61,7 @@ const Footer = () => {
           </li>
           <a
             className=" bg-[#55c5e9] rounded-md p-1 hover:text-[#55c5e9] hover:bg-[#204b5a] border border-[#55c5e9] hover:border-[#55c5e9]"
-            href="https://drive.google.com/file/d/1Fv7odJW_RcssQ32cfDcry7PXkhqep-Is/view?usp=sharing"
+            href="https://drive.google.com/file/d/19ENzen0s4fmNOEAe_yyQxeUIej6VYxoX/view?usp=drive_link"
             target="_blank"
           >
             Download CV
